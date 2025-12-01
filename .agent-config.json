@@ -1,0 +1,61 @@
+{
+  "projectType": "landing-page",
+  "methodology": "componentização-extrema",
+  "stack": {
+    "framework": "Nuxt 4.2.1",
+    "styling": "Tailwind CSS",
+    "frontend": "Vue 3",
+    "language": "TypeScript"
+  },
+  "designSystem": {
+    "colors": {
+      "primary": "#020618",
+      "secondary": "#00DC82",
+      "usage": "primary-predominant-85-percent"
+    },
+    "fonts": {
+      "primary": "Public Sans",
+      "secondary": "Inter", 
+      "mono": "JetBrains Mono"
+    },
+    "gradients": {
+      "hero": "linear-gradient(135deg, #020618 0%, #1e293b 85%, #00DC82 100%)",
+      "primary": "linear-gradient(135deg, #020618 0%, #1e293b 70%, #00DC82 100%)"
+    }
+  },
+  "conventions": {
+    "components": {
+      "naming": "PascalCase",
+      "extension": ".vue",
+      "imports": "explicit-required"
+    },
+    "props": {
+      "typing": "required",
+      "defaults": "required",
+      "naming": "camelCase"
+    },
+    "responsiveness": {
+      "approach": "mobile-first",
+      "breakpoints": ["sm:640px", "md:768px", "lg:1024px", "xl:1280px"]
+    }
+  },
+  "structure": {
+    "components": "app/components/",
+    "sections": "app/components/sections/",
+    "pages": "app/pages/",
+    "utils": "app/utils/"
+  },
+  "rules": {
+    "imports": "explicit-only",
+    "auto-imports": "forbidden",
+    "inline-styles": "forbidden", 
+    "css-classes": "design-system-only",
+    "component-naming": "nuxt-vue-standards"
+  },
+  "quality": {
+    "mobile-responsive": "mandatory",
+    "props-typed": "mandatory",
+    "design-system-usage": "mandatory",
+    "explicit-imports": "mandatory"
+  }
+}
