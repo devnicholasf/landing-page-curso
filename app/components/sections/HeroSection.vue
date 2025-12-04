@@ -12,7 +12,7 @@
       <div class="max-w-4xl mx-auto text-center">
         <!-- Badge -->
         <div class="mb-8">
-          <Badge text="Método componentização extrema" />
+          <Badge text="Método Componentização Extrema" />
         </div>
 
         <!-- Main heading -->
