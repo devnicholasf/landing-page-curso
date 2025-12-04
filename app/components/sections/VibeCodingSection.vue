@@ -18,7 +18,7 @@
 
           <!-- Title -->
           <h2 class="font-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-6 leading-tight">
-            <span class="text-white">Vibe </span><span class="text-secondary">Coding</span>
+            <span class="text-white">Vibe </span><span class="text-red-400">Coding</span>
           </h2>
 
           <!-- Description -->
@@ -57,8 +57,8 @@
         <div class="text-center mb-12">
           <h3 class="font-primary text-2xl sm:text-3xl font-bold mb-3 leading-tight tracking-tight">
             <span class="text-white">Resultado do </span>
-            <span class="text-neutral-400">Vibe </span>
-            <span class="text-secondary">Coding:</span>
+            <span class="text-red-400">Vibe </span>
+            <span class="text-red-400">Coding:</span>
           </h3>
           <p class="font-body text-neutral-300 text-sm">Código gerado pela IA sem metodologia</p>
         </div>
