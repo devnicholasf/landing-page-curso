@@ -108,6 +108,11 @@
           </div>
         </div>
       </div>
+      
+      <!-- Call to Action -->
+      <div class="text-center mt-20">
+        <ActionButton texto="Começar agora" />
+      </div>
     </div>
 
     <!-- Bottom gradient fade -->
@@ -119,6 +124,7 @@
 import Badge from '~/components/ui/Badge.vue'
 import ChatMockup from '~/components/ui/ChatMockup.vue'
 import FolderStructure from '~/components/ui/FolderStructure.vue'
+import ActionButton from '~/components/ui/ActionButton.vue'
 
 // Component props
 const props = defineProps({
