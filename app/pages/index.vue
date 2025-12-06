@@ -10,6 +10,9 @@
     <CheckoutSection />
     <FaqSection />
     <FooterSection />
+    
+    <!-- WhatsApp Button -->
+    <WhatsAppButton />
   </div>
 </template>
 
@@ -24,6 +27,7 @@ import DepoimentosSection from '~/components/sections/DepoimentosSection.vue'
 import CheckoutSection from '~/components/sections/CheckoutSection.vue'
 import FaqSection from '~/components/sections/FaqSection.vue'
 import FooterSection from '~/components/sections/FooterSection.vue'
+import WhatsAppButton from '~/components/ui/WhatsAppButton.vue'
 
 // Page meta
 definePageMeta({

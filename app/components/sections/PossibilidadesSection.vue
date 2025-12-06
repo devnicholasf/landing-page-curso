@@ -100,7 +100,6 @@
 <script setup>
 import Badge from '~/components/ui/Badge.vue'
 import AppTypeCard from '~/components/ui/AppTypeCard.vue'
-import ActionButton from '~/components/ui/ActionButton.vue'
 
 // Component props
 const props = defineProps({

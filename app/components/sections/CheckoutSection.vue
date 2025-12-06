@@ -1,5 +1,5 @@
 <template>
-  <section class="relative py-20 bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 overflow-hidden">
+  <section id="checkout" class="relative py-20 bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 overflow-hidden">
     <!-- Background decorative elements -->
     <div class="absolute inset-0">
       <div class="absolute top-10 left-10 w-96 h-96 bg-secondary/3 rounded-full blur-3xl"></div>
