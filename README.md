@@ -21,7 +21,6 @@
 - [🔧 Funcionalidades](#-funcionalidades)
 - [📊 Performance](#-performance)
 - [🤝 Contribuição](#-contribuição)
-- [📄 Licença](#-licença)
 
 ---
 
@@ -342,37 +341,8 @@ const props = defineProps({
   }
 })
 </script>
-```
-
-### Como Contribuir
-
-1. **Fork** o projeto
-2. **Crie** uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** suas mudanças (`git commit -m 'Add: AmazingFeature'`)
-4. **Push** para a branch (`git push origin feature/AmazingFeature`)
-5. **Abra** um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais e demonstração da metodologia de **Componentização Extrema**.
-
-### Informações da Empresa
 
 ```
-Copyright © 2025 NF AICoding LTDA
-CNPJ: 27.159.855/0001-16
-Fortaleza - Brasil
-```
-
----
-
-## 📞 Contato
-
-- **Email**: suporte@curso.com
-- **WhatsApp**: +55 85 99999-9999
-- **Localização**: Fortaleza, Ceará - Brasil
 
 ---
 
