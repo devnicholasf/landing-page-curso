@@ -1,9 +1,13 @@
+<div align="center">
+  
 # 🚀 Landing Page - Curso Componentização Extrema
 
 [![Nuxt](https://img.shields.io/badge/Nuxt-4.2.1-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)](https://nuxt.com/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-3.5.25-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.16-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+</div>
 
 > Uma landing page moderna e responsiva desenvolvida em Nuxt.js para promover o curso de **Componentização Extrema**, demonstrando as melhores práticas de desenvolvimento Vue.js através de uma experiência visual impactante.
 
@@ -348,7 +352,7 @@ const props = defineProps({
 
 <div align="center">
 
-**Desenvolvido com 💚 utilizando Nuxt.js e a metodologia de Componentização Extrema**
+**Desenvolvido por Nicholas com 💚 utilizando Nuxt.js e a metodologia de Componentização Extrema**
 
 [![Nuxt](https://img.shields.io/badge/Powered_by-Nuxt.js-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)](https://nuxt.com/)
 
