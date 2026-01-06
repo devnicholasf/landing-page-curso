@@ -352,7 +352,7 @@ const props = defineProps({
 
 <div align="center">
 
-**Desenvolvido por Nicholas com 💚 utilizando Nuxt.js e a metodologia de Componentização Extrema**
+**Desenvolvido por Nicholas**
 
 [![Nuxt](https://img.shields.io/badge/Powered_by-Nuxt.js-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)](https://nuxt.com/)
 
