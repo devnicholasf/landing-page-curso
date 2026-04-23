@@ -20,11 +20,8 @@
 - [🛠️ Tecnologias](#️-tecnologias)
 - [📁 Estrutura do Projeto](#-estrutura-do-projeto)
 - [🚀 Instalação e Uso](#-instalação-e-uso)
-- [🎨 Design System](#-design-system)
 - [📱 Seções da Landing Page](#-seções-da-landing-page)
 - [🔧 Funcionalidades](#-funcionalidades)
-- [📊 Performance](#-performance)
-- [🤝 Contribuição](#-contribuição)
 
 ---
 
@@ -130,7 +127,7 @@ landpage/
 
 ```bash
 # Clone o repositório
-git clone <repository-url>
+git clone https://github.com/devnicholasf/landing-page-curso
 cd landpage
 
 # Instale as dependências
@@ -154,48 +151,6 @@ npm run build      # Build para produção
 npm run preview    # Preview do build
 npm run lint       # Linting do código
 npm run type-check # Verificação de tipos
-```
-
----
-
-## 🎨 Design System
-
-### 🎨 Paleta de Cores
-
-```css
-/* Cores Primárias */
---primary: #020618     /* Azul escuro profissional */
---secondary: #00DC82   /* Verde Nuxt (accent) */
-
-/* Cores Neutras */
---neutral-50: #FAFAFA
---neutral-200: #E5E5E5
---neutral-400: #A3A3A3
---neutral-700: #404040
---neutral-900: #171717
-```
-
-### 📝 Tipografia
-
-- **Heading**: Public Sans (Black, Bold)
-- **Body**: Public Sans (Regular, Medium) 
-- **Code**: JetBrains Mono (Monospace)
-
-### 🎭 Componentes Base
-
-#### ActionButton
-```vue
-<ActionButton texto="Começar agora" />
-```
-
-#### Badge
-```vue
-<Badge text="🚀 Metodologia" />
-```
-
-#### VideoPlayer
-```vue
-<VideoPlayer videoId="dQw4w9WgXcQ" />
 ```
 
 ---
@@ -279,74 +234,6 @@ npm run type-check # Verificação de tipos
 - **Breakpoints** otimizados (sm, md, lg, xl)
 - **Grid responsivo** em todas as seções
 - **Tipografia escalável**
-
----
-
-## 📊 Performance
-
-### 🚀 Métricas de Build
-
-```
-Client Build: ~2.2s
-Server Build: ~740ms
-Total Size: 1.96 MB
-Gzipped: 478 kB
-```
-
-### ⚡ Otimizações
-
-- **Tree shaking** automático
-- **Code splitting** por rota
-- **Asset optimization** 
-- **CSS purging** do Tailwind
-- **Component lazy loading**
-
-### 🔍 SEO
-
-- **Server-Side Rendering** (SSR)
-- **Meta tags** otimizadas
-- **Estrutura semântica** HTML5
-- **Robots.txt** configurado
-- **Performance otimizada**
-
----
-
-## 🤝 Contribuição
-
-### Metodologia de Desenvolvimento
-
-Este projeto segue a **metodologia de Componentização Extrema**:
-
-1. **Um componente por arquivo**
-2. **Imports explícitos obrigatórios**
-3. **Props tipadas** com TypeScript
-4. **Naming convention** PascalCase
-5. **Estrutura organizada** ui/ e sections/
-
-### Padrões de Código
-
-```vue
-<!-- Exemplo de componente seguindo a metodologia -->
-<template>
-  <div class="component-container">
-    <!-- Conteúdo do componente -->
-  </div>
-</template>
-
-<script setup>
-// Imports explícitos
-import ComponenteFilho from '~/components/ui/ComponenteFilho.vue'
-
-// Props tipadas
-const props = defineProps({
-  texto: {
-    type: String,
-    required: true
-  }
-})
-</script>
-
-```
 
 ---
 
